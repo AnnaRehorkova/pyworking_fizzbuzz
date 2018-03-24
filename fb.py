@@ -25,11 +25,11 @@ def fizzbuzz(number):
 def fizzbuzz(number):
     #return str() #vrací prázdný string
     if number % 15 == 0: #záleží na pořadí
-        return 'fizzbuzz'
+        return 'haha'
     if number % 3 == 0: #funguje i s elif
-        return 'fizz'
+        return 'haha'
     if number % 5 == 0:
-        return 'buzz'
+        return 'haha'
 
     else:
         return str(number)
